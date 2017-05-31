@@ -21,3 +21,4 @@ Route::get('/cliente/', 'TestController@index')->name('delete');
 Route::get('/delete/{id}', 'TestController@delete');
 
 Route::get('/new', 'TestController@gitnew');
+Route::get('/new', 'TestController@gitnew2');
