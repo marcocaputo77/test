@@ -19,3 +19,5 @@ Route::get('/', function () {
 Route::get('/cliente/', 'TestController@index')->name('delete');
 
 Route::get('/delete/{id}', 'TestController@delete');
+
+Route::get('/new', 'TestController@gitnew');
